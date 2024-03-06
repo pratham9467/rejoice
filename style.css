@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "rf";
+  src: url("./assets/Rejouice-Headline.ttf");
+}
+@font-face {
+  font-family: "rr";
+  src: url("./assets/NBInternationalProBoo.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #ac8e8e;
+  position: relative;
+}
+
+.page1 video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.page1Content {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(0, 0, 0); */
+  position: relative;
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.3vw 2vw;
+}
+
+nav h3 {
+  font-weight: 100;
+  font-family: "rf";
+  padding-left: 2.5vw;
+}
+
+nav h4 {
+  letter-spacing: 0.2mm;
+  font-family: "rf";
+  padding-right: 2.5vw;
+}
+
+.page1Content h1 {
+  font-weight: 100;
+  font-family: "rf";
+  font-size: 27vw;
+  line-height: 75%;
+}
