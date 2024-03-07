@@ -37,7 +37,6 @@ function locoScroll() {
   // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
   ScrollTrigger.refresh();
 }
-
 locoScroll();
 
 function loader() {
@@ -65,7 +64,7 @@ function loader() {
   tl.from(" h1 span", {
     y: 50,
     opacity: 0,
-    durtion: 0.7,
+    durtion: 0.5,
     stagger: 0.2,
   });
 
@@ -173,3 +172,38 @@ function page5Animation() {
 }
 
 page5Animation();
+
+function page7Animation() {
+  gsap.from(".topelem7 h3", {
+    y: 120,
+    stagger: 0.2,
+    durtion: 1,
+    scrollTrigger: {
+      trigger: ".page7a",
+      scroller: ".main",
+      start: "top 47%",
+      end: "top 46%",
+      marker: true,
+      scrub: 2,
+    },
+  });
+}
+
+page7Animation();
+
+function page7aAnimation() {
+  gsap.from(".elem7 h1 .line71, .line72, .line73, .line74, .line75, .line76 ", {
+    y: 120,
+    stagger: 0.2,
+    durtion: 1,
+    scrollTrigger: {
+      trigger: ".page7a",
+      scroller: ".main",
+      start: "top 47%",
+      end: "top 46%",
+      marker: true,
+      scrub: 2,
+    },
+  });
+}
+page7aAnimation();
