@@ -114,31 +114,67 @@ nav h4 {
   margin-left: 3vw;
   margin-right: 4vw;
   border-bottom: 0.001px solid rgba(0, 0, 0, 0.523);
+  overflow: hidden;
 }
+
 .topelem h3 {
   font-weight: 100;
   font-family: rr;
   font-size: 1.3em;
   overflow: hidden;
- 
+  scroll-behavior: smooth 100ms ease-in;
 }
 
-.topelem h4 {
+.page2 .topelem h4 {
   font-weight: 100;
   font-family: rr;
   font-size: 1.3em;
   align-self: flex-end;
 }
 
+.elem {
+  min-height: 100vh;
+  width: 100vw;
+}
 .elem h1 {
   font-weight: 500;
   font-family: rr;
   font-size: 3.3em;
   padding: 1vw 3vw;
   line-height: 99%;
+  height: 100vh;
+  width: 100vw;
 }
 
-.elem h1 span {
-  margin-left: 7vw;
+.elem .line1 {
+  height: auto;
+  width: 100vw;
+  margin-left: 8vw;
+  overflow: hidden;
 }
-
+.elem .line2 {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+}
+.elem .line3 {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+}
+.elem .line4 {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+}
+.elem .line5 {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+}
+.elem .line6 {
+  height: auto;
+  width: 100vw;
+  padding-right: 6vw;
+  overflow: hidden;
+}
