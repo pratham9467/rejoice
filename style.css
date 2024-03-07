@@ -36,12 +36,30 @@ body {
   position: absolute;
 }
 
+.playReel {
+  height: 7.5vw;
+  width: 7.5vw;
+  border-radius: 50%;
+  background-color: #e46135;
+  position: fixed;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+.playReel h5 {
+  font-weight: 200;
+  font-family: rf;
+  letter-spacing: 0.2mm;
+}
+
 .page1Content {
   height: 100%;
   width: 100%;
   /* background-color: rgb(0, 0, 0); */
   position: relative;
-  z-index: 2;
+  z-index: 10;
   color: white;
   display: flex;
   flex-direction: column;
@@ -74,4 +92,12 @@ nav h4 {
   font-family: "rf";
   font-size: 27vw;
   line-height: 75%;
+}
+.page1Content h1 span {
+  font-family: "rf";
+}
+.page2{
+    height: 100vh;
+    width: 100vw;
+    
 }
