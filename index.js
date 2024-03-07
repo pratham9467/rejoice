@@ -121,12 +121,12 @@ function page4Animation() {
 page4Animation();
 
 function page5Animation() {
-  gsap.from(".topelem5, .topelem5 h3", {
+  gsap.from(".topelem5 h3", {
     y: 120,
     stagger: 0.2,
     durtion: 1,
     scrollTrigger: {
-      trigger: ".page2",
+      trigger: ".page5",
       scroller: ".main",
       start: "top 47%",
       end: "top 46%",
@@ -137,5 +137,42 @@ function page5Animation() {
 }
 
 page5Animation();
+
+function page7Animation() {
+  gsap.from(".topelem7 h3", {
+    y: 120,
+    stagger: 0.2,
+    durtion: 1,
+    scrollTrigger: {
+      trigger: ".page7a",
+      scroller: ".main",
+      start: "top 47%",
+      end: "top 46%",
+      marker: true,
+      scrub: 2,
+    },
+  });
+}
+
+page7Animation();
+
+function page7aAnimation() {
+  gsap.from(".elem7 h1 .line71, .line72, .line73, .line74, .line75, .line76 ", {
+    y: 120,
+    stagger: 0.2,
+    durtion: 1,
+    scrollTrigger: {
+      trigger: ".page7a",
+      scroller: ".main",
+      start: "top 47%",
+      end: "top 46%",
+      marker: true,
+      scrub: 2,
+    },
+  });
+}
+page7aAnimation();
+
+
 
 

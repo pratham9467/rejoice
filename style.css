@@ -14,6 +14,12 @@
 
 html,
 body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%;
   background-color: #fbf8f3;
@@ -385,6 +391,82 @@ nav h4 {
   height: 80vh;
 }
 
+.page7a {
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+  z-index: 99;
+  transition: all ease-in-out 1000ms;
+}
+
+.topelem7 {
+  padding-top: 8vh;
+  padding-bottom: 4vh;
+  margin-left: 3vw;
+  margin-right: 4vw;
+  border-bottom: 0.001px solid rgba(0, 0, 0, 0.523);
+  overflow: hidden;
+}
+
+.topelem7 h3 {
+  font-weight: 100;
+  font-family: rr;
+  font-size: 1.3em;
+  overflow: hidden;
+}
+
+.elem7 {
+  min-height: 100vh;
+  width: 100vw;
+  transition: all ease-in 1000ms;
+}
+.elem7 h1 {
+  font-weight: 500;
+  font-family: rr;
+  font-size: 3.2em;
+  padding: 1vw 3vw;
+  line-height: 99%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.elem7 .line71 {
+  height: 9vh;
+  width: 100vw;
+  margin-left: 8vw;
+
+  overflow: hidden;
+}
+.elem7 .line72 {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+}
+.elem7 .line73 {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+  object-fit: contain;
+}
+.elem7 .line74 {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+  object-fit: contain;
+}
+.elem7 .line75 {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+  object-fit: contain;
+}
+.elem7 .line76 {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+  object-fit: contain;
+}
+
 .page7 {
   height: 100vh;
   width: 100vw;
@@ -394,4 +476,6 @@ nav h4 {
   font-weight: 100;
   font-size: 8em;
   border-bottom: 1px solid black;
+  margin-left: 3%;
+  width: 94%;
 }
