@@ -243,16 +243,18 @@ nav h4 {
 .page4 .page4A {
   height: 75vh;
   width: 30.5vw;
-  background-color: black;
 }
 .page4 .page4B {
   height: 75vh;
-  width: 30.5vw;
-  background-color: rgb(19, 160, 207);
-  margin-top: 2px;
+  width: 31%;
 }
 .page4 .page4C {
   height: 75vh;
   width: 30.5vw;
-  background-color: rgb(199, 42, 42);
+}
+
+.page4foot video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
