@@ -243,18 +243,64 @@ nav h4 {
 .page4 .page4A {
   height: 75vh;
   width: 30.5vw;
+  position: relative;
 }
 .page4 .page4B {
   height: 75vh;
-  width: 31%;
+  width: 30.5vw;
+  position: relative;
 }
 .page4 .page4C {
   height: 75vh;
   width: 30.5vw;
+  position: relative;
 }
-
-.page4foot video {
+.page4foot .page4A video {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: center;
+}
+.page4foot .page4B video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.page4foot .page4C video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.page4foot .page4A img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  transition: all ease-in 1000ms;
+}
+
+.page4foot .page4B img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  transition: all ease-in 1000ms;
+}
+.page4foot .page4C img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  transition: all ease-in 1000ms;
+}
+.page4foot .page4A:hover img {
+  opacity: 0;
+}
+.page4foot .page4B:hover img {
+  opacity: 0;
+}
+.page4foot .page4C:hover img {
+  opacity: 0;
 }
