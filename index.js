@@ -26,7 +26,7 @@ function cursoreffect() {
 cursoreffect();
 
 function page2Animation() {
-  gsap.from(".elem h1", {
+  gsap.from(".topelem h3, h4, .elem h1", {
     y: 120,
     stagger: 0.2,
     durtion: 1,
@@ -39,6 +39,6 @@ function page2Animation() {
       scrub: 2,
     },
   });
-};
+}
 
 page2Animation();
