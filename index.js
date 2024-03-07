@@ -40,6 +40,42 @@ function locoScroll() {
 
 locoScroll();
 
+function loader() {
+  var tl = gsap.timeline();
+
+  tl.from("#loader h3", {
+    x: 100,
+    opacity: 0,
+    durtion: 1,
+    stagger: 0.2,
+  });
+
+  tl.to("#loader h3", {
+    opacity: 0,
+    x: -10,
+    durtion: 1,
+    stagger: 0.2,
+  });
+
+  tl.to("#loader", {
+    opacity: 0,
+    delay: 0.5,
+  });
+
+  tl.from(" h1 span", {
+    y: 50,
+    opacity: 0,
+    durtion: 0.7,
+    stagger: 0.2,
+  });
+
+  tl.to("#loader", {
+    display: "none",
+  });
+}
+
+loader();
+
 function cursoreffect() {
   var page1Content = document.querySelector(".page1Content");
   var playReel = document.querySelector(".playReel");
@@ -137,42 +173,3 @@ function page5Animation() {
 }
 
 page5Animation();
-
-function page7Animation() {
-  gsap.from(".topelem7 h3", {
-    y: 120,
-    stagger: 0.2,
-    durtion: 1,
-    scrollTrigger: {
-      trigger: ".page7a",
-      scroller: ".main",
-      start: "top 47%",
-      end: "top 46%",
-      marker: true,
-      scrub: 2,
-    },
-  });
-}
-
-page7Animation();
-
-function page7aAnimation() {
-  gsap.from(".elem7 h1 .line71, .line72, .line73, .line74, .line75, .line76 ", {
-    y: 120,
-    stagger: 0.2,
-    durtion: 1,
-    scrollTrigger: {
-      trigger: ".page7a",
-      scroller: ".main",
-      start: "top 47%",
-      end: "top 46%",
-      marker: true,
-      scrub: 2,
-    },
-  });
-}
-page7aAnimation();
-
-
-
-

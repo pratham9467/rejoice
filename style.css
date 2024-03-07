@@ -14,10 +14,6 @@
 
 html,
 body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -25,8 +21,18 @@ body {
   background-color: #fbf8f3;
 }
 
-.main {
-  overflow: hidden;
+#loader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  z-index: 99;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
 }
 
 .page1 {
@@ -98,10 +104,11 @@ nav h4 {
   font-weight: 100;
   font-family: "rf";
   font-size: 27vw;
-  line-height: 75%;
-}
-.page1Content h1 span {
+  line-height: 79%;
   color: #fbf8f3;
+}
+.page1Content span {
+  display: inline-block;
   font-family: "rf";
 }
 .page2 {
