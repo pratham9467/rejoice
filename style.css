@@ -16,6 +16,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: #fbf8f3;
 }
 
 .main {
@@ -94,10 +95,11 @@ nav h4 {
   line-height: 75%;
 }
 .page1Content h1 span {
+    color: #fbf8f3;
   font-family: "rf";
 }
 .page2{
     height: 100vh;
     width: 100vw;
-    
+
 }
