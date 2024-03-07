@@ -185,7 +185,7 @@ nav h4 {
 }
 
 .page3 {
-  height: 100vh;
+  height: 40vh;
   width: 100vw;
   position: relative;
   text-align: center;
@@ -218,7 +218,7 @@ nav h4 {
 }
 
 .page4 {
-  height: 100vh;
+  height: 84vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -237,21 +237,22 @@ nav h4 {
 
 .page4 .page4foot {
   display: flex;
-  justify-content: space-between;
-  margin: 2vh 3vw; 
+  justify-content: space-around;
+  margin: 2vh 3vw;
 }
 .page4 .page4A {
-  height: 100vh;
-  width: 100vw;
+  height: 75vh;
+  width: 30.5vw;
   background-color: black;
 }
 .page4 .page4B {
-  height: 100vh;
-  width: 100vw;
+  height: 75vh;
+  width: 30.5vw;
   background-color: rgb(19, 160, 207);
+  margin-top: 2px;
 }
 .page4 .page4C {
-  height: 100vh;
-  width: 100vw;
+  height: 75vh;
+  width: 30.5vw;
   background-color: rgb(199, 42, 42);
 }
