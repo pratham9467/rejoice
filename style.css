@@ -139,7 +139,7 @@ nav h4 {
 .elem h1 {
   font-weight: 500;
   font-family: rr;
-  font-size: 3.3em;
+  font-size: 3.2em;
   padding: 1vw 3vw;
   line-height: 99%;
   height: 100vh;
@@ -147,9 +147,10 @@ nav h4 {
 }
 
 .elem .line1 {
-  height: auto;
+  height: 9vh;
   width: 100vw;
   margin-left: 8vw;
+
   overflow: hidden;
 }
 .elem .line2 {
@@ -161,20 +162,45 @@ nav h4 {
   height: auto;
   width: 100vw;
   overflow: hidden;
+  object-fit: contain;
 }
 .elem .line4 {
   height: auto;
   width: 100vw;
   overflow: hidden;
+  object-fit: contain;
 }
 .elem .line5 {
-  height: auto;
+  height: 8.8vh;
   width: 100vw;
   overflow: hidden;
+  object-fit: contain;
 }
 .elem .line6 {
-  height: auto;
+  height: 17vh;
   width: 100vw;
   padding-right: 6vw;
+  object-fit: contain;
   overflow: hidden;
+}
+
+.page3 h4 {
+  font-family: rr;
+  font-weight: 100;
+}
+
+.page3 h4 span {
+  font-family: rr;
+  font-weight: 600;
+  font-size: 0.6em;
+  border-radius: 44%;
+  background-color: black;
+  color: white;
+  padding: 0.5em;
+  width: 5vw;
+}
+
+.page3 h2 {
+  font-family: rr;
+  font-weight: 100;
 }
