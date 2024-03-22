@@ -195,7 +195,7 @@ function page7aAnimation() {
   gsap.from(".elem7 h1 .line71, .line72, .line73, .line74, .line75, .line76 ", {
     y: 120,
     stagger: 0.2,
-    durtion: 1,
+    duration: 1,
     scrollTrigger: {
       trigger: ".page7a",
       scroller: ".main",
