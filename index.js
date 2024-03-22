@@ -45,14 +45,14 @@ function loader() {
   tl.from("#loader h3", {
     x: 100,
     opacity: 0,
-    durtion: 1,
+    duration: 1,
     stagger: 0.2,
   });
 
   tl.to("#loader h3", {
     opacity: 0,
     x: -10,
-    durtion: 1,
+    duration: 1,
     stagger: 0.2,
   });
 
@@ -64,7 +64,7 @@ function loader() {
   tl.from(" h1 span", {
     y: 50,
     opacity: 0,
-    durtion: 0.5,
+    duration: 0.5,
     stagger: 0.2,
   });
 
